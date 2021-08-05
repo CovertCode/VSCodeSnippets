@@ -1,0 +1,14 @@
+"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "asfc",
+		"body": [
+			"async function $1(){",
+			"",
+			"}",
+			"",
+			"module.exports = {",
+			"$1",
+			"}"
+		],
+		"description": "Create async function"
+	}
