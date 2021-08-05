@@ -3,3 +3,16 @@
     "body": "console.log(${1:object});",
     "description": "Displays a message in the console"
   },
+
+"Javascript Try-Catch": {
+		"prefix": "trch",
+		"body": [
+			"try{",
+			"} catch(error) {",
+			"    ${2:console.error('Exception ' + error);",
+			"}",
+			"}",
+			"$0"
+		],
+		"description": "An awesome try-catch statement"
+	  }
